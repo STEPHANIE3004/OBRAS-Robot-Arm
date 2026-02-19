@@ -12,6 +12,29 @@
 * [cite_start]**IHM (Interface Homme-Machine)** : Système de diagnostic par LEDs (Bleu, Jaune, Rouge) pour confirmer la détection en temps réel[cite: 100, 119].
 * [cite_start]**Matériaux** : Structure conçue en plexiglas et carton (épaisseur 3mm) pour allier légèreté et robustesse[cite: 100, 123].
 
+
+## 📸 Galerie du Prototype
+Le prototype a été entièrement conçu et assemblé manuellement, utilisant une structure hybride en carton et plexiglas pour tester les algorithmes de tri.
+
+| Vue d'ensemble du système | Focus sur la Pince et Capteur |
+|:---:|:---:|
+| ![Vue d'ensemble](images/vue_ensemble.jpeg) | ![Pince](images/pince_robotique.jpeg) |
+| *Intégration de l'Arduino MEGA et du banc de tri* | *Détail du capteur TCS3200 et des servomoteurs de la pince* |
+
+### Détails du Montage
+* [cite_start]**Détection Optique** : Utilisation du capteur TCS3200 avec un éclairage LED intégré pour une lecture précise des fréquences RGB[cite: 83, 87].
+![Capteur de couleur](images/capteur_couleur.jpeg)
+
+* [cite_start]**Électronique Embarquée** : Câblage structuré sur breadboard incluant la gestion de l'alimentation des 5 servomoteurs et du bus de données[cite: 80, 85].
+![Câblage](images/cablage_electronique.jpeg)
+
+* [cite_start]**Structure et Mécanique** : Conception du bras articulé permettant une amplitude de mouvement nécessaire au balayage des zones de tri[cite: 88, 89].
+![Structure](images/structure_bras.jpeg)
+
+* [cite_start]**Zone de Tri Final** : Compartiments colorés (Jaune, Bleu, Rouge) pour la validation visuelle du succès de l'algorithme de classement[cite: 107, 108].
+![Tri final](images/tri_final.jpeg)
+
+
 ## 🧠 Algorithme et Logique Embarquée
 [cite_start]Le logiciel, développé en langage **C sur Arduino IDE**, repose sur une architecture modulaire pour optimiser l'utilisation de la mémoire[cite: 81, 82].
 
